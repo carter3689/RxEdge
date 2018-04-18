@@ -1053,15 +1053,17 @@ blockquote {
 
 }
 .overlay-text{
-	font-family: 'Oswald', sans-serif;
-  position: absolute;
-  font-size: 88px;
-  letter-spacing: 3px;
-  line-height: 1.13em;
-  margin-bottom: 0px;
-  padding-top: 219px;
-  padding-right: 50%;
-  color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	font-size: 83px;
+	letter-spacing: 0px;
+	line-height: 1.13em;
+	margin-bottom: 0px;
+	padding-top: 219px;
+	padding-right: 50%;
+	color: #fff;
+	top: -12px;
+	right: -7%;
 }
 .bounding{
 	background-size: contain;
@@ -1104,7 +1106,7 @@ blockquote {
 	z-index: 1;
 }
 .visual-intro p {
-	   font-size: 28px;
+	   font-size: 30px;
 	   letter-spacing: 1px;
 	   line-height: 1.35;
 	   padding-top: 40px;
@@ -3390,6 +3392,1243 @@ min-height:200px;
 	}
 }
 
+
+/*Double Edge Software Device Specific media queries */
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+    top: -34vw;
+    text-shadow: 2px 2px #000000;
+    left: 17vw;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 8vw;
+    top: -34vw;
+    text-shadow: 2px 2px #000000;
+    left: 17vw;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+		.overlay-text{
+			font-size: 8vw;
+    top: -34vw;
+    text-shadow: 2px 2px #000000;
+    left: 17vw;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: landscape) {
+
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: landscape) {
+
+		.overlay-text{
+			font-size: 17vw;
+	    top: -15vw;
+			text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 102%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+		}
+
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 68%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+			left: 4vw;
+			bottom: 0vw;
+		}
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 834px)
+  and (max-device-width: 834px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1112px)
+  and (max-device-width: 1112px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+  and (min-device-width: 1366px)
+  and (max-device-width: 1366px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media
+  (min-device-width: 800px)
+  and (max-device-width: 1280px) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Portrait */
+@media
+  (max-device-width: 800px)
+  and (orientation: portrait) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Landscape */
+@media
+  (max-device-width: 1280px)
+  and (orientation: landscape) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media
+  (min-device-width: 800px)
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Portrait */
+@media
+  (max-device-width: 800px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+
+/* Landscape */
+@media
+  (max-device-width: 1280px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+		.overlay-text{
+			font-size: 8vw;
+	    top: -3vw;
+	    text-shadow: 2px 2px #000000;
+
+		}
+		.visual{
+			position: relative;
+			background-image: url(../images/empowered-woman-bg.jpg);
+			background-position: bottom right;
+			background-repeat: no-repeat;
+			background-size: 49%;
+			min-height: 583px;
+			z-index: 1;
+			width: 100%;
+		}
+}
+/*Double Edge Software Media Query */
+@media (max-width: 600px),(max-width:375px){
+	.overlay-text{
+    font-size: 8vw;
+    top: -37vw;
+		text-shadow: 2px 2px #000000;
+		left: 17vw;
+
+	}
+	.visual{
+		position: relative;
+		background-image: url(../images/empowered-woman-bg.jpg);
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: 102%;
+		min-height: 583px;
+		z-index: 1;
+		width: 100%;
+		left: 4vw;
+	}
+}
+
 @media print {
 	#header {
 		position: static;
@@ -3624,13 +4863,13 @@ min-height:200px;
 	cursor: pointer;
 }
 .list-box .item-center a,.list-box .item-center a:hover {
-	background: url('/images/home-grid-center.jpg');
+	background: url('/images/home-grid-center.jpg');/*home-grid-right.jpg*/
 	background-position: top center;
 	background-size: cover;
 	cursor: pointer;
 }
 .list-box .item-right a,.list-box .item-right a:hover {
-	background: url('/images/home-grid-right.jpg');
+	background: url('/images/home-grid-right.jpg');/*home-grid-center.jpg*/
 	background-position: top center;
 	background-size: cover;
 	cursor: pointer;
@@ -3643,7 +4882,9 @@ min-height:200px;
 }
 .list-box .item .box-text-left,.list-box .item .box-text,.list-box .item .box-text-right {
 	position: absolute;
-	top: 50%;
+	top: 60%; /*previous 50% */
 	transform: translateY(-50%);
 }
+
+
 /** END NEW 3-COLUMN GRID STYLING **/
