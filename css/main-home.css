@@ -707,6 +707,12 @@ input[type="submit"] {
 	margin: 0 auto;
 	padding: 0 25px;
 }
+.container-grid{
+	width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 35px;
+}
 
 q {
 	quotes: none;
